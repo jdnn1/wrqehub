@@ -1,0 +1,118 @@
+--Made by wrqe#9521
+
+-- Instances:
+
+local wrqegui2022 = Instance.new("ScreenGui")
+local main = Instance.new("ScrollingFrame")
+local Funky = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
+local titlegui = Instance.new("TextLabel")
+local AUT = Instance.new("TextButton")
+local YBA = Instance.new("TextButton")
+local Yyield = Instance.new("TextButton")
+local Discord = Instance.new("TextButton")
+
+--Properties:
+
+wrqegui2022.Name = "wrqegui2022"
+wrqegui2022.Parent = game.CoreGui
+wrqegui2022.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = wrqegui2022
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(48, 11, 71)
+main.Position = UDim2.new(0.820408165, 0, 0.0977859795, 0)
+main.Size = UDim2.new(0, 132, 0, 256)
+main.Active = true
+main.Draggable = true
+
+Funky.Name = "Funky"
+Funky.Parent = main
+Funky.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Funky.BackgroundTransparency = 1.000
+Funky.Position = UDim2.new(0, 0, 0.0479704812, 0)
+Funky.Size = UDim2.new(0, 119, 0, 50)
+Funky.Font = Enum.Font.SourceSans
+Funky.Text = "Funky Friday"
+Funky.TextColor3 = Color3.fromRGB(0, 0, 0)
+Funky.TextSize = 14.000
+Funky.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+MM2.Name = "MM2"
+MM2.Parent = main
+MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2.BackgroundTransparency = 1.000
+MM2.Position = UDim2.new(0, 0, 0.0947590023, 0)
+MM2.Size = UDim2.new(0, 119, 0, 50)
+MM2.Font = Enum.Font.SourceSans
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2.TextSize = 14.000
+MM2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
+end)
+
+titlegui.Name = "titlegui"
+titlegui.Parent = main
+titlegui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+titlegui.BackgroundTransparency = 1.000
+titlegui.Size = UDim2.new(0, 119, 0, 50)
+titlegui.Font = Enum.Font.SourceSans
+titlegui.Text = "wrqe gui (by wrqe#9521)"
+titlegui.TextColor3 = Color3.fromRGB(0, 0, 0)
+titlegui.TextSize = 12.000
+
+AUT.Name = "AUT"
+AUT.Parent = main
+AUT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AUT.BackgroundTransparency = 1.000
+AUT.Position = UDim2.new(0, 0, 0.140797973, 0)
+AUT.Size = UDim2.new(0, 119, 0, 50)
+AUT.Font = Enum.Font.SourceSans
+AUT.Text = "AUT"
+AUT.TextColor3 = Color3.fromRGB(0, 0, 0)
+AUT.TextSize = 14.000
+AUT.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Yaki-0/Yaki-s-Hub/main/NEW%20AUT.lua", true))()
+end)
+
+YBA.Name = "YBA"
+YBA.Parent = main
+YBA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+YBA.BackgroundTransparency = 1.000
+YBA.Position = UDim2.new(0, 0, 0.184155911, 0)
+YBA.Size = UDim2.new(0, 119, 0, 50)
+YBA.Font = Enum.Font.SourceSans
+YBA.Text = "YBA"
+YBA.TextColor3 = Color3.fromRGB(0, 0, 0)
+YBA.TextSize = 14.000
+YBA.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/NukeVsCity/hackscript123/main/gui")()
+end)
+
+Yyield.Name = "Y yield"
+Yyield.Parent = main
+Yyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Yyield.BackgroundTransparency = 1.000
+Yyield.Position = UDim2.new(0, 0, 0.233048901, 0)
+Yyield.Size = UDim2.new(0, 119, 0, 50)
+Yyield.Font = Enum.Font.SourceSans
+Yyield.Text = "Infinite Y yield"
+Yyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yyield.TextSize = 14.000
+Yyield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jdnn1/Yyield/main/Yyieldforwrqehub", true))()
+end)
+
+Discord.Name = "Discord"
+Discord.Parent = main
+Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord.BackgroundTransparency = 1.000
+Discord.Position = UDim2.new(0, 0, 0.284767032, 0)
+Discord.Size = UDim2.new(0, 119, 0, 50)
+Discord.Font = Enum.Font.SourceSans
+Discord.Text = "Join The Discord:https://discord.gg/h9a4MuaGtp"
+Discord.TextColor3 = Color3.fromRGB(0, 0, 0)
+Discord.TextSize = 12.000
