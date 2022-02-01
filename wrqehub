@@ -115,4 +115,4 @@ Discord.Size = UDim2.new(0, 119, 0, 50)
 Discord.Font = Enum.Font.SourceSans
 Discord.Text = "Join The Discord:https://discord.gg/h9a4MuaGtp"
 Discord.TextColor3 = Color3.fromRGB(0, 0, 0)
-Discord.TextSize = 12.000
+Discord.TextSize = 10.069
